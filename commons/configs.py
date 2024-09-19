@@ -9,7 +9,7 @@ class LoadConfigs:
 
     def __init__(self):
         self.OS_DIR = os.getcwd()
-        self.HOME_DIR = os.path.join(self.OS_DIR)
+        self.HOME_DIR = os.path.join(self.OS_DIR, "InvestManager")
         self.CONFIGS_DIR = os.path.join(self.HOME_DIR, "commons")
         self.LOGS_DIR = os.path.join(self.HOME_DIR, "logs")
         self.INPUT_DATAS = os.path.join(self.HOME_DIR, "input_datas")
